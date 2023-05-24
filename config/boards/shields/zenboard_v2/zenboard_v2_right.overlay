@@ -4,7 +4,7 @@
 #include "zenboard_v2.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &default_transform {
-    colf-offset = <7>;
+    col-offset = <7>;
 };
 
 &kscan0 {
