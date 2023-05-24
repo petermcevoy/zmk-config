@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: incptr
-      url-base: https://github.com/incptr
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: incptr
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
