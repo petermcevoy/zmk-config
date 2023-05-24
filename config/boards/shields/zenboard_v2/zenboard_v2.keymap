@@ -32,12 +32,12 @@
  &kp   GRAVE   &kp N1  &kp N2   &kp N3    &kp N4     &kp  N5                  &kp  N6   &kp  N7    &kp  N8   &kp N9     &kp  N0     &kp SLASH  
  &kp DELETE    &kp SQT &kp SEMI &kp LPAR  &kp RPAR   &kp  MINUS               &kp LEFT  &kp  DOWN  &kp  UP   &kp RIGHT  &kp  COLON  &kp ESCAPE
                  &kp BACKSLASH  &kp LBKT  &kp RBKT   &kp  EQUAL               &kp HOME  &kp PG_DN  &kp PG_UP &kp END 
-                  &kp LEFT_ALT  &kp LCTRL &kp LSHIFT &kp SPACE            &kp ENTER &mo  2     &kp TAB   &kp RALT
+                  &kp LEFT_ALT  &kp LCTRL &kp LSHIFT &kp SPACE            &kp ENTER &mo  2     &kp TAB   &bt BT_CLR
                         >;
                 };
                 tiling_layer {
                         bindings = <
- &kp   GRAVE    &kp LA(N1)    &kp LA(N2)    &kp LA(N3)    &kp LA(N4) &kp LA(N5)                &kp LA(N6)    &kp LA(N7)    &kp LA(N8) &kp LA(N9)    &kp  LA(N0)   &kp SLASH  
+ &kp   GRAVE    &kp LA(N1)    &kp LA(N2)    &kp LA(N3)    &kp LA(N4) &kp LA(N5)                &kp LA(N6)    &kp LA(N7)    &kp LA(N8) &kp LA(N9)    &kp  LA(N0)   &bt BT_NXT  
  &kp LA(DELETE) &kp LA(SQT)   &kp LA(E)     &kp LA(W)     &kp LA(T)  &kp  LA(P)                &kp LA(LEFT)  &kp  LA(DOWN) &kp LA(UP) &kp LA(RIGHT) &kp LA(COLON) &kp LA(ESCAPE)
                               &kp LA(LS(R)) &kp LA(LS(C)) &kp ENTER  &kp LA(LS(N))    &kp LA(LS(H)) &kp C_VOLUME_DOWN  &kp K_VOLUME_UP &kp END 
                   &kp LEFT_ALT  &kp LA(LCTRL) &kp LA(LSHIFT) &kp LA(SPACE)            &kp ENTER &mo  2     &kp TAB   &kp RALT
