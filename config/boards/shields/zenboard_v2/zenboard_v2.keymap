@@ -19,10 +19,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp A &kp A &kp A &kp A &kp A &kp A               &kp A &kp A &kp A &kp A &kp A &kp A
-   &kp A &kp A &kp A &kp A &kp A &kp A               &kp A &kp A &kp A &kp A &kp A &kp A
-               &kp A &kp A &kp A &kp A               &kp A &kp A &kp A &kp A
-               &kp A &kp A &kp A &kp A &kp A   &kp A &kp A &kp A &kp A &kp A
+ &kp   Z       &kp  Q  &kp  W  &kp  F    &kp  P     &kp  B                   &kp  J    &kp  L     &kp  U    &kp  Y  &kp  P  &kp SLASH  
+ &kp BACKSPACE &kp  A  &kp  R  &kp  S    &kp  T     &kp  G                   &kp  M    &kp  N     &kp  E    &kp  I  &kp  O  &kp ESCAPE
+                       &kp  X  &kp  C    &kp  D     &kp  V                   &kp  K    &kp  H     &kp COMMA &kp DOT 
+                  &kp LEFT_ALT &kp LCTRL &kp LSHIFT &kp SPACE                &kp ENTER &kp  L     &kp TAB   &kp RALT
                         >;
                 };
         };
