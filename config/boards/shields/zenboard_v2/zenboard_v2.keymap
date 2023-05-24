@@ -43,5 +43,13 @@
                   &kp LEFT_ALT  &kp LA(LCTRL) &kp LA(LSHIFT) &kp LA(SPACE)            &kp ENTER &mo  2     &kp TAB   &kp RALT
                         >;
                 };
+                function_layer {
+                        bindings = <
+ &LSHFT   &kp F1  &kp F2   &kp F3    &kp F4     &kp  F5                      &kp  F6   &kp  F7             &kp  F8          &kp F9   &kp  F0  &LSHFT  
+ &LSHFT   &LSHFT  &LSHFT    &LSHFT     &LSHFT      &LSHFT                    &LSHFT    &LSHFT              &LSHFT           &LSHFT   &LSHFT   &LSHFT
+                  &LSHFT    &LSHFT     &LSHFT      &LSHFT                    &LSHFT    &kp C_VOLUME_DOWN   &kp K_VOLUME_UP  &LSHFT 
+                            &LSHFT     &LSHFT      &LSHFT   &LSHFT       &LSHFT  &LSHFT    &LSHFT              &LSHFT
+                        >;
+                };
         };
 };
