@@ -1,6 +1,8 @@
 // zenboard_v2_right.overlay
 
+
 #include "zenboard_v2.dtsi" // Notice that the main dtsi files are included in the overlay.
+
 
 &kscan0 {
     col-gpios
