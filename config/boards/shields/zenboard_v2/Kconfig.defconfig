@@ -1,4 +1,4 @@
-if SHIELD_ZENBOARD_V2_RIGHT
+if SHIELD_ZENBOARD_V2_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "zenboard_v2"
