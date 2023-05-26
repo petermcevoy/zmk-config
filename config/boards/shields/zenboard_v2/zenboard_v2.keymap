@@ -43,5 +43,13 @@
                   &kp LEFT_ALT  &kp LA(LCTRL) &kp LA(LSHIFT) &kp LA(SPACE)            &kp ENTER &mo  2     &kp TAB   &bt BT_NXT
                         >;
                 };
+                function_layer {
+                        bindings = <
+ &kp LA(LS(R)) &kp LA(N1)    &kp LA(N2)    &kp LA(N3)    &kp LA(N4)     &kp LA(N5)                &kp LA(N6)    &kp LA(N7)    &kp LA(N8) &kp LA(N9)    &kp  LA(N0)   &kp LA(N0)  
+ &kp LA(DELETE) &kp LA(SQT)   &kp LA(E)     &kp LA(W)     &kp LA(T)      &kp  LA(P)                &kp LA(LEFT)  &kp  LA(DOWN) &kp LA(UP) &kp LA(RIGHT) &kp LA(COLON) &kp LA(ESCAPE)
+                              &kp LA(LS(C)) &kp LA(LS(Q)) &kp LA(ENTER)  &kp LA(LS(N))    &kp LA(LS(H)) &kp C_VOLUME_DOWN  &kp K_VOLUME_UP &kp K_SLEEP
+                  &kp LEFT_ALT  &kp LA(LCTRL) &kp LA(LSHIFT) &kp LA(SPACE)            &kp ENTER &mo  2     &kp TAB   &bt BT_NXT
+                        >;
+                };
         };
 };
