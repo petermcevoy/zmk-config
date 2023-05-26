@@ -39,16 +39,24 @@
                         bindings = <
  &kp LA(LS(R)) &kp LA(N1)    &kp LA(N2)    &kp LA(N3)    &kp LA(N4)     &kp LA(N5)                &kp LA(N6)    &kp LA(N7)    &kp LA(N8) &kp LA(N9)    &kp  LA(N0)   &kp LA(N0)  
  &kp LA(DELETE) &kp LA(SQT)   &kp LA(E)     &kp LA(W)     &kp LA(T)      &kp  LA(P)                &kp LA(LEFT)  &kp  LA(DOWN) &kp LA(UP) &kp LA(RIGHT) &kp LA(COLON) &kp LA(ESCAPE)
-                              &kp LA(LS(C)) &kp LA(LS(Q)) &kp LA(ENTER)  &kp LA(LS(N))    &kp LA(LS(H)) &kp C_VOLUME_DOWN  &kp K_VOLUME_UP &kp K_SLEEP
+                              &kp LA(LS(C)) &kp LA(LS(Q)) &kp LA(ENTER)  &kp LA(LS(N))    &kp LA(LS(H)) &kp C_VOLUME_DOWN  &kp K_VOLUME_UP &none
                   &kp LEFT_ALT  &kp LA(LCTRL) &kp LA(LSHIFT) &kp LA(SPACE)            &kp ENTER &mo  2     &kp TAB   &bt BT_NXT
                         >;
                 };
                 function_layer {
                         bindings = <
  &kp KP_NUMLOCK &kp F1  &kp F2   &kp F3    &kp F4     &kp  F5                  &kp  F6   &kp  F7    &kp  F8   &kp F9     &kp  F10     &kp PRINTSCREEN  
- &kp DELETE     &kp F11 &kp F12 &kp LPAR  &kp RPAR   &kp  MINUS               &bt BT_NXT  &kp  C_BRI_DN  &kp  C_BRI_UP   &bt BT_PRV  &bt  BT_CLR  &kp ESCAPE
-                 &kp C_RESET  &kp LBKT  &kp RBKT   &kp  EQUAL               &bt BT_NXT  &kp  C_BRI_DN  &kp  C_BRI_UP   &bt BT_PRV
-                  &kp LEFT_ALT  &kp LCTRL &kp LSHIFT &kp SPACE            &kp ENTER &mo  2     &kp TAB   &bt BT_CLR
+ &none          &kp F11 &kp F12  &none     &none      &none                    &none     &kp  C_BRI_DN  &kp  C_BRI_UP   &none  &none  &none
+                &none   &none    &none     &none                               &none     &kp C_VOLUME_DOWN  &kp K_VOLUME_UP  &none
+                  &kp LEFT_ALT  &kp LCTRL &kp LSHIFT  &none                    &none     &none              &none            &none
+                        >;
+                };
+                settings_layer {
+                        bindings = <
+ &none &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5       &none      &none &none   &none       &none        &bt  BT_CLR  
+ &none          &none &none  &none     &none      &none                       &bt BT_PRV &none &none   &bt BT_NXT  &none        &none
+                &kp C_RESET  &kp K_SLEEP  &none   &none                       &none      &none &none   &none
+                &none        &none        &none   &none                       &none      &none &none   &none
                         >;
                 };
         };
