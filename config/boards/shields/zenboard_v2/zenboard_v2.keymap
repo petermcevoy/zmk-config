@@ -20,10 +20,10 @@
 //                    | ALT | CTRL| SHFT| SPC | | ENT/NAV | i3  |TAB/F3| UTL |
 
                         bindings = <
- &kp   Z       &kp  Q  &kp  W  &kp  F    &kp  P     &kp  B                      &kp  J    &kp  L     &kp  U    &kp  Y  &kp  P  &kp SLASH  
- &kp BACKSPACE &kp  A  &kp  R  &kp  S    &kp  T     &kp  G                      &kp  M    &kp  N     &kp  E    &kp  I  &kp  O  &kp ESCAPE
-                       &kp  X  &kp  C    &kp  D     &kp  V                      &kp  K    &kp  H     &kp COMMA &kp DOT 
-                       &bt BT_CLR &kp LCTRL &kp LSHIFT  &kp SPACE      &lt 1 ENTER  &mo  2    &lt 3 TAB    &kp RALT
+ &kp   Z       &kp  Q  &kp  W   &kp  F    &kp  P     &kp  B                      &kp  J    &kp  L     &kp  U    &kp  Y  &kp  P  &kp SLASH  
+ &kp BACKSPACE &kp  A  &kp  R   &kp  S    &kp  T     &kp  G                      &kp  M    &kp  N     &kp  E    &kp  I  &kp  O  &kp ESCAPE
+                       &kp  X   &kp  C    &kp  D     &kp  V                      &kp  K    &kp  H     &kp COMMA &kp DOT 
+                       &kp LALT &kp LCTRL &kp LSHIFT  &kp SPACE      &lt 1 ENTER  &mo  2    &lt 3 TAB    &kp RALT
                         >;
                 };
 
@@ -37,9 +37,9 @@
                 };
                 tiling_layer {
                         bindings = <
- &kp   GRAVE    &kp LA(N1)    &kp LA(N2)    &kp LA(N3)    &kp LA(N4)     &kp LA(N5)                &kp LA(N6)    &kp LA(N7)    &kp LA(N8) &kp LA(N9)    &kp  LA(N0)   &bt BT_NXT  
+ &kp LA(LS(R)) &kp LA(N1)    &kp LA(N2)    &kp LA(N3)    &kp LA(N4)     &kp LA(N5)                &kp LA(N6)    &kp LA(N7)    &kp LA(N8) &kp LA(N9)    &kp  LA(N0)   &kp LA(N0)  
  &kp LA(DELETE) &kp LA(SQT)   &kp LA(E)     &kp LA(W)     &kp LA(T)      &kp  LA(P)                &kp LA(LEFT)  &kp  LA(DOWN) &kp LA(UP) &kp LA(RIGHT) &kp LA(COLON) &kp LA(ESCAPE)
-                              &kp LA(LS(R)) &kp LA(LS(C)) &kp LA(ENTER)  &kp LA(LS(N))    &kp LA(LS(H)) &kp C_VOLUME_DOWN  &kp K_VOLUME_UP &kp END 
+                              &kp LA(LS(C)) &kp LA(LS(Q)) &kp LA(ENTER)  &kp LA(LS(N))    &kp LA(LS(H)) &kp C_VOLUME_DOWN  &kp K_VOLUME_UP &kp END 
                   &kp LEFT_ALT  &kp LA(LCTRL) &kp LA(LSHIFT) &kp LA(SPACE)            &kp ENTER &mo  2     &kp TAB   &kp RALT
                         >;
                 };
